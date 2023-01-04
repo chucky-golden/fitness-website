@@ -1,0 +1,271 @@
+body{
+  font-family: "Montserrat", sans-serif;
+}
+input[type=search] {
+    width: 130px;
+    border: none;
+    border-radius: 50px;
+    font-size: 14px;
+    color: white;
+    background-color: teal;
+    background-image: url(img/search.png);
+    background-position: left;
+    background-position: 7px 7px; 
+    padding:5px 35px;
+    background-repeat: no-repeat;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+    margin-top: -1px;
+}
+
+input[type=search]:focus {
+    width: 60%;
+    transition: width 0.4s ease-in-out;
+    border: none;
+    border-radius: 50px;
+}
+
+.intro{
+  color: white;
+  width: 100%;
+  height: 130vh;
+  padding: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  background: url(img/imgaa.jpeg);
+  background-size: cover;
+  background-position: contain;
+}
+
+
+.one{
+  background-image: url(img/body.png);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.one:hover{
+  transform: rotate(-2deg);
+  transition: all 0.4s ease-in-out;
+}
+.one h3{
+  font-weight: bold;
+  margin-top: 10%;
+  color: black;
+}
+.one h4{
+  font-weight: bold;
+}
+.one img{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  background: white;
+}
+.one p{
+  font-size: 14pt;
+  color: black;
+}
+
+
+.two{
+  background-image: url(img/fit.png);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.two:hover{
+  transform: rotate(-2deg);
+  transition: all 0.4s ease-in-out;
+}
+.two h3{
+  font-weight: bold;
+  margin-top: 10%;
+  color: black;
+}
+.two h4{
+  font-weight: bold;
+}
+.two img{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  background: white;
+}
+.two p{
+  font-size: 14pt;
+  color: black;
+}
+
+
+.three{
+  background-image: url(img/health.png);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.three:hover{
+  transform: rotate(-2deg);
+  transition: all 0.4s ease-in-out;
+}
+.three h3{
+  font-weight: bold;
+  margin-top: 10%;
+  color: black;
+}
+.three h4{
+  font-weight: bold;
+}
+.three img{
+  border-radius: 50%;
+  height: 80px;
+  width: 80px;
+  padding: 10px;
+  background: white;
+}
+.three p{
+  font-size: 14pt;
+  color: black;
+}
+.programs .testimonial{
+  margin-top: 5%;
+}
+.programs .testimonial .text-center{
+  background-color: teal;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+}
+.programs .testimonial #vision{
+  margin-left: 10%;
+  padding: 35px;
+}
+.programs .carousel{
+  margin-top: 15%;
+}
+.programs .carousel .carousel-inner{
+  color: teal;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*.programs .carousel-indicators li{
+  border-color: black;
+  margin-top: 220px;
+  background-color: red;
+}*/
+/*.programs .carousel .carousel-indicators{
+  margin-top: 200%;
+}*/
+
+
+
+.four{
+  background-image: url(img/unsure.png);
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  transition: all 0.4s ease-in-out;
+}
+.four:hover{
+  transform: rotate(-2deg);
+  transition: all 0.4s ease-in-out;
+}
+.four h3{
+  font-weight: bold;
+  margin-top: 10%;
+  color: black;
+}
+.four h4{
+  font-weight: bold;
+}
+.four p{
+  font-size: 14pt;
+  color: black;
+}
+.testify .img-responsive{
+  width: 80%;
+  height: 380px;
+  margin: 10px;
+}
+.testify .row p, .testify .row h3{
+  padding: 5px;
+}
+.testify .testify2{
+  margin-top: 16.3%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px){
+    input[type=search]:focus {
+      width: 90%;
+      transition: width 0.4s ease-in-out;
+      border: none;
+      border-radius: 50px;
+  }
+  .intro{
+      height: 70vh;
+  }
+  .one img{
+    height: 60px;
+    width: 60px;
+  }
+  .one h3{
+    font-size: 20px;
+  }
+  .two img{
+    height: 60px;
+    width: 60px;
+  }
+  .two h3{
+    font-size: 20px;
+  }
+  .three img{
+    height: 60px;
+    width: 60px;
+  }
+  .three h3{
+    font-size: 20px;
+  }
+
+}

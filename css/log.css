@@ -1,0 +1,332 @@
+body{
+	height: 100%;
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+	background: #f9ebf8;
+}
+.log_box{
+	background: white;
+	margin-top: 10%;
+	margin-right: auto;
+	margin-left: auto;
+	width: 40%;
+	padding: 20px;
+	border-radius: 5px;
+}
+.log_box h2{
+	font-weight: bold;
+	text-align: center;
+}
+.log_box li{
+	list-style: none;
+}
+.log_box a{
+	text-decoration: none;
+}
+.log_box input[type=email]{
+	border-radius: 20px;
+	border: 1px solid teal;
+	padding: 10px;
+	font-size: 15px;
+	background: #f9ebf8;
+	margin-top: 10px;
+	width: 100%;
+}
+.log_box input[type=text]{
+	border-radius: 20px;
+	border: 1px solid teal;
+	padding: 10px;
+	font-size: 15px;
+	background: #f9ebf8;
+	margin-top: 10px;
+	width: 100%;
+}
+.log_box input[type=password]{
+	border-radius: 20px;
+	border: 1px solid teal;
+	padding: 10px;
+	font-size: 15px;
+	background: #f9ebf8;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%;
+} 
+.log_box button{
+	background: teal;
+	color: black;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 100%; 
+	transition: all 0.4s ease-in-out;
+}
+.log_box button:hover{
+	background:teal;
+	transition: all 0.4s ease-in-out;
+	color: black;
+}
+.log_box span{
+	font-size: 100px;
+	border: 5px solid teal;
+	padding: 20px;
+	border-radius: 100px;
+}
+.quiz li{
+	list-style: none;
+	display: inline-block;
+}
+.quiz img{
+	height: 80px;
+	width: 80px;
+	background:#f9ebf8;
+	padding: 10px;
+	border-radius: 50%; 
+}
+.quiz p{
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.quiz a{
+	background: teal;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	transition: all 0.4s ease-in-out;
+}
+.quiz a:hover{
+	background:teal;
+	transition: all 0.4s ease-in-out;
+	color: white;
+}
+
+.questions{
+	margin-top: 5%;
+}
+.questions li{
+	list-style: none;
+	margin-top: 10px;
+} 
+.questions button{
+	background: teal;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 35%; 
+	transition: all 0.4s ease-in-out;
+}
+.questions button:hover{
+	background:teal;
+	transition: all 0.4s ease-in-out;
+	color: white;
+}
+
+.op_1{
+	background: white;
+	width: 40%;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 20px;
+	padding: 20px;
+	margin-top: 50px;
+}
+.op_1 img{
+	height: 80px;
+	width: 80px;
+	background: #f9ebf8;
+	padding: 10px;
+	border-radius: 50%;
+}
+.op_1 h4{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.op_1 a{
+	text-decoration: none;
+	background: teal;
+	color: #f2f2f2;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	transition: all 0.4s ease-in-out;
+}
+.op_1 a:hover{
+	background:teal;
+	/*transition: all 0.4s ease-in-out;*/
+	color: white;
+}
+
+
+
+.op_2{
+	background: white;
+	width: 40%;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.op_2 img{
+	height: 80px;
+	width: 80px;
+	background: #f9ebf8;
+	padding: 10px;
+	border-radius: 50%;
+}
+.op_2 h4{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.op_2 a{
+	text-decoration: none;
+	background: teal;
+	color: #f2f2f2;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	transition: all 0.4s ease-in-out;
+}
+.op_2 a:hover{
+	background:teal;
+	/*transition: all 0.4s ease-in-out;*/
+	color: white;
+}
+
+.op_3{
+	background: white;
+	width: 40%;
+	border-radius: 5px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+}
+.op_3 img{
+	height: 80px;
+	width: 80px;
+	background: #f9ebf8;
+	padding: 10px;
+	border-radius: 50%;
+}
+.op_3 h4{
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+.op_3 a{
+	text-decoration: none;
+	background: teal;
+	color: #f2f2f2;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	transition: all 0.4s ease-in-out;
+}
+.op_3 a:hover{
+	background:teal;
+	/*transition: all 0.4s ease-in-out;*/
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+	.log_box{
+		background: white;
+		margin-top: 35%;
+		margin-right: auto;
+		margin-left: auto;
+		width: 95%;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	.log_box h2{
+		font-size: 20px;
+	}
+	.log_box button{
+		font-size: 17px;
+	}
+	.log_box input[type=password]{
+		margin-bottom: unset;
+	}
+	.log_box input{
+		margin-top: 5%;
+	}
+	.quiz a{
+		font-size: 17px;
+		margin-bottom: 5%;
+	}
+	.quiz p{
+		text-align: center;
+		margin-bottom: 8%;
+	}
+	.questions button{
+		width: 90%;
+	}
+
+	.op_1{
+		width: 90%;
+		margin-top: 10%;
+	}
+	.op_2{
+		width: 90%;
+		margin-top: 10%;
+	}
+	.op_3{
+		width: 90%;
+		margin-top: 10%;
+	}
+}

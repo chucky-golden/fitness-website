@@ -1,0 +1,229 @@
+body{
+	height: 100%;
+	width: 100%;
+	font-family: "Montserrat", sans-serif;
+}
+.navbar{
+	height: 12vh;
+	padding: 10px;
+	background: white;
+}
+.navbar-nav li{
+	list-style: none;
+	margin: 10px;
+	margin-top: 20px;
+}
+.menu{
+	margin-left: 150px;
+}
+.menu a{
+	color: teal;
+	font-weight: bolder;
+	font-size: 13pt;
+	text-decoration: none;
+	transition: all 0.4s ease-in-out;
+}
+.menu a:hover{
+	color: teal;
+	transition: all 0.4s ease-in-out;
+}
+.view{
+	display: none;
+}
+.navbar-right{
+	margin-right: 20px;
+}
+.navbar-right a{
+	color: black;
+	text-decoration: none;
+}
+.search{
+	margin-top: 12vh;
+	background: teal;
+	height: 6vh;
+	padding: 5px;
+}
+.float li{
+	list-style: none;
+	display: inline-block;
+}
+
+.intro h1{
+	margin-top: 5%;
+	margin-left: 5%;
+	font-size: 50pt;
+	font-weight: bold;
+	width: 50%;
+	color: teal;
+}
+.intro h4{
+	margin-left: 5%;
+	width: 350px;
+	line-height: 35px;
+	font-size: 20pt;
+	color: teal;
+
+}
+
+.programs h2{
+	font-weight: bold;
+	font-size: 30pt;
+}
+.programs h4{
+	font-size: 18pt;
+}
+.col-sm-4{
+	margin-top: 30px;
+}
+.col-sm-4 a{
+	text-decoration: none;
+}
+
+.products h2{
+	font-weight: bold;
+	font-size: 30pt;
+	color: #f2f2f2
+}
+.products h4{
+	font-size: 18pt;
+	color: #f2f2f2;
+}
+.products{
+	margin-top: 50px;
+	padding: 20px;
+	background: teal;
+}
+.products img{
+	border-radius: 10px;
+}
+.products p{
+	color: white;
+	font-size: 14px;
+}
+.store a{
+	text-decoration: none;
+	background: #ffba69;
+	padding: 20px;
+	border-radius: 5px;
+	font-size: 17pt;
+	float: right;
+	margin-top: 50%;
+	margin-right: 50px;
+	color: black;
+	transition: all 0.4s ease-in-out;
+}
+.store a:hover{
+	background: #fd836d;
+	transition: all 0.4s ease-in-out;
+}
+.footer{
+	background: #1a1a1a;
+	padding: 20px;
+	color: white;
+}
+.socials li{
+	list-style: none;
+	margin-top: 10px;
+	padding: 10px;
+	background: teal;
+	color: white;
+	border-radius: 50%;
+	width: 40px;
+	transition: all 0.4s ease-in-out;
+}
+.socials li:hover{
+	background: white;
+	color: white;
+	transition: all 0.4s ease-in-out;
+}
+.socials span{
+	font-size: 18px;
+	color: white;
+}
+
+.board{
+	width: 85%;
+	color: white;
+	background: teal;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 20px;
+	height: 20vh;
+}
+.board h1{
+	font-weight: bold;
+}
+.well{
+	width: 30%;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.well h3{
+	font-weight: bold;
+}
+.register li{
+	list-style: none;
+	margin-top: 10px;
+}
+.register input{
+	border-radius: 20px;
+	border: 1px solid teal;
+	padding: 10px;
+	font-size: 15px;
+	background: transparent;
+	width: 80%;
+	color: teal;
+	font-weight: bolder;
+}
+.register select{
+	border-radius: 20px;
+	border: 1px solid teal;
+	padding: 10px;
+	font-size: 15px;
+	background: transparent;
+	width: 80%;
+	color: teal;
+	font-weight: bolder;
+}
+.register button{
+	background: teal;
+	color: white;
+	border-radius: 5px;
+	border: none;
+	font-size: 20px;
+	padding: 10px 30px;
+	margin-top: 10px;
+	width: 80%; 
+	transition: all 0.4s ease-in-out;
+}
+.register button:hover{
+	background: teal;
+	transition: all 0.4s ease-in-out;
+	color: white;
+}
+.col-sm-7 img{
+	width: 80%;
+}
+.col-sm-5{
+	background:  teal;
+	padding: 20px;
+	color: white;
+}
+.col-sm-5 video{
+	border-radius: 5px;
+	width: 400px;
+	height: 200px;
+}
+.col-sm-5 h3{
+	font-weight: bold;
+	margin-top: 30px;
+	color: white;
+}
+.col-sm-5 h4{
+	font-weight: bold;
+	color: white;
+}
+
+.quiz{
+	
+}
